@@ -19,10 +19,12 @@
   "homepage": "https://github.com/cds-hooks/cds-invoker#readme",
   "dependencies": {
     "body-parser": "1.15.1",
+    "cds-validator": "0.1.2",
     "express": "4.13.4",
     "request-promise": "3.0.0"
   },
   "devDependencies": {
-    "jshint": "2.9.2"
+    "jshint": "2.9.2",
+    "nodemon": "1.9.2"
   }
 }

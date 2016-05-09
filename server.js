@@ -3,6 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const rp = require('request-promise');
+const validate = require('cds-validator');
 
 const PORT = process.env.PORT || 3000;
 
@@ -15,6 +16,9 @@ app.post('/invoke', function(req, res) {
   var payload = req.body.payload;
 
   rp.post({ method: 'POST', uri: service, body: payload, json: true }).
+    then(function(result) {
+      return validate(JSON.stringify(result));
+    }).
     then(function(result) {
       res.json(result);
     }).
