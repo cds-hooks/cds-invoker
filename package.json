@@ -1,0 +1,28 @@
+{
+  "name": "cds-invoker",
+  "version": "0.1.0",
+  "description": "Simple nodejs server that simulates the EHR's side of a CDS Hooks interaction",
+  "main": "server.js",
+  "scripts": {
+    "test": "jshint .",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/cds-hooks/cds-invoker.git"
+  },
+  "author": "Matt Berther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cds-hooks/cds-invoker/issues"
+  },
+  "homepage": "https://github.com/cds-hooks/cds-invoker#readme",
+  "dependencies": {
+    "body-parser": "1.15.1",
+    "express": "4.13.4",
+    "request-promise": "3.0.0"
+  },
+  "devDependencies": {
+    "jshint": "2.9.2"
+  }
+}
