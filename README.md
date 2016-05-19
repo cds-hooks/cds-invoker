@@ -1,6 +1,6 @@
 # cds-invoker
 
-[![Circle CI](https://circleci.com/gh/cds-hooks/cds-invoker.svg?style=shield)](https://circleci.com/gh/cds-hooks/cds-invoker)
+[![Build Status](https://travis-ci.org/cds-hooks/cds-invoker.svg?branch=master)](https://travis-ci.org/cds-hooks/cds-invoker)
 [![devDependency Status](https://david-dm.org/cds-hooks/cds-invoker.svg)](https://david-dm.org/cds-hooks/cds-invoker)
 
 Simple nodejs server that simulates the EHR's side of a CDS Hooks interaction, for testing purposes.
